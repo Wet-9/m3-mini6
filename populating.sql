@@ -183,3 +183,11 @@ JOIN products ON products.id = orders.product_id
 GROUP BY product_id
 ORDER BY Order_total DESC
 LIMIT 3;
+
++---------------+-------------+
+| product_title | Order_total |
++---------------+-------------+
+| Phone         |           3 |
+| Jeans         |           2 |
+| Laptop        |           1 |
++---------------+-------------+
